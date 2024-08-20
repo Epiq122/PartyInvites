@@ -10,9 +10,11 @@
 <!DOCTYPE html>
 <html>
 <head>
+	<link rel="stylesheet"
+		  href="/lib/bootstrap/dist/css/bootstrap.css" />
 	<title>Thanks</title>
 </head>
-<body>
+<body class="text-center">
 	<div>
 		<h1>Thank you @Model?.Name!</h1>
 		@if (Model?.WillAttend == true)
@@ -27,5 +29,5 @@
 		}
 	</div>
 	Click <a asp-action="ListResponses">here</a> to see who is coming!
-</body>
+</bodyclass>
 </html>
